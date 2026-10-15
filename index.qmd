@@ -1,7 +1,11 @@
 ---
-title: "website"
+title: "UC Berkeley Library Dataverse Documentation"
 ---
 
-This is a Quarto website.
+Welcome to the UC Berkeley Library Dataverse documentation website. Here you can find information on how to get started with Dataverse, including guides for depositing and downloading datasets.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Research Data Support at UC Berkeley
+
+UC Berkeley Library Dataverse is managed and maintained by the Library’s [Data \+ Digital Scholarship Services](https://www.lib.berkeley.edu/research/data-services) and Library IT.
+
+For additional research data support at UC Berkeley, contact our [Research Data Management Program](https://researchdata.berkeley.edu/). To find GIS data, visit the Library's [GeoData Portal](https://geodata.lib.berkeley.edu/). 
