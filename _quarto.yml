@@ -2,20 +2,48 @@ project:
   type: website
 
 website:
-  title: "website"
+  title: "UC Berkeley Library Dataverse Docs"
   navbar:
-    left:
-      - href: index.qmd
+    title: false
+    logo: assets/ucb_library_dataverse_logo.png
+    right:
+      - href: https://datasets.lib.berkeley.edu/
         text: Home
-      - about.qmd
+      - href: getting_started/index.qmd
+        text: "Getting Started"
+      - href: about.qmd
+        text: "About"
+  sidebar:
+    - id: about
+      title: "About"
+      style: "floating"
+      contents:
+        - about.qmd
+    - id: getting_started
+      title: "Getting Started"
+      style: "floating"
+      contents:
+        - section: "Getting Started"
+          href: getting_started/index.qmd
+          contents:
+          - href: getting_started/how_to_deposit.qmd
+            text: "How to Deposit"
+          - href: getting_started/how_to_download.qmd
+            text: "How to Download"
+
+language:
+  title-block-modified: "Last Updated"
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cosmo
     css: styles.css
     toc: true
+    mainfont: "Arial"
+    grid:
+      sidebar-width: 250px
+      body-width: 700px
+      margin-width: 300px
 
 
 
