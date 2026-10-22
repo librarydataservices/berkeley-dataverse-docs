@@ -2,9 +2,11 @@
 
 /* Website wide-variables */
 :root {
-  --nav-max-width: 1200px;
+  --nav-max-width: 1250px;
 }
 
+
+/* ---Navbar styles--- */
 /* Navbar brand image */
 .navbar-brand img {
     max-height: 40px;
@@ -24,20 +26,26 @@
   box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-/* Heading styles */
+/* ---Heading styles--- */
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.content h2 {
+  margin-top: 1.5em;
 }
 
 h3 {
   font-size: 1.25rem;
 }
 
-/* Button styles */
+
+/* ---Button styles--- */
 .btn-primary {
   background-color: #002676;
   border-color: #002676;
   color: #ffffff;
+  border-radius: .25rem;
 }
 
 .btn-primary:hover {
@@ -46,11 +54,17 @@ h3 {
   color: #ffffff;
 }
 
-/* Link styles */
+
+/* ---Link styles--- */
 a {
-  color: #002676;
+  color: #004AAE;
 }
 
 a:hover {
-  color: #004AAE;
+  color: #002676;
+}
+
+/* Ensure hyperlinks inside bold text actually display as bold */
+strong a, b a, a strong, a b {
+    font-weight: bold !important;
 }
