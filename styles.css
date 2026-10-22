@@ -1,12 +1,20 @@
 /* css styles */
+
+/* Website wide-variables */
+:root {
+  --nav-max-width: 1200px;
+}
+
+/* Navbar brand image */
 .navbar-brand img {
-    max-height: 37px;
+    max-height: 40px;
     width: auto;
 }
 
-/* Adjust the max-width value to your preferred narrow size */
-.navbar .navbar-container {
-  max-width: 1250px; 
+/* Navbar container and footer */
+.navbar .navbar-container,
+.nav-footer {
+  max-width: var(--nav-max-width);
   margin-left: auto;
   margin-right: auto;
 }
@@ -16,10 +24,33 @@
   box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
+/* Heading styles */
 h2 {
   font-size: 1.5rem;
 }
 
 h3 {
   font-size: 1.25rem;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #002676;
+  border-color: #002676;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #004AAE;
+  border-color: #004AAE;
+  color: #ffffff;
+}
+
+/* Link styles */
+a {
+  color: #002676;
+}
+
+a:hover {
+  color: #004AAE;
 }
