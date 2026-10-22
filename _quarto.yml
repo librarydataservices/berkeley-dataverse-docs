@@ -6,31 +6,40 @@ website:
   title: "UC Berkeley Library Dataverse Docs"
   navbar:
     title: false
-    logo: assets/ucb_library_dataverse_logo.png
+    logo: assets/ucbl_dataverse_docs_logo.png
+    logo-alt: "UC Berkeley Library Dataverse Docs Logo"
+    left:
+      - href: guides/index.qmd
+        text: "Guides"
+      - href: about/index.qmd
+        text: "About"
     right:
       - href: https://datasets.lib.berkeley.edu/
-        text: Home
-      - href: getting_started/index.qmd
-        text: "Getting Started"
-      - href: about.qmd
-        text: "About"
+        text: "Go to Dataverse"
+        icon: box-arrow-up-right
+        target: _blank
+  page-footer:
+    left: Copyright © 2026 The Regents of the University of California
+    right:
+      - icon: envelope
+        href: mailto:librarydataservices@berkeley.edu
+        target: _blank
+        aria-label: Email Library Data Services
+      - icon: github
+        href: https://github.com/librarydataservices/berkeley-dataverse-docs
+        target: _blank
+        aria-label: GitHub Repository for this site
+
+
   sidebar:
     - id: about
       title: "About"
       style: "floating"
-      contents:
-        - about.qmd
-    - id: getting_started
-      title: "Getting Started"
+      contents: about
+    - id: guides
+      title: "Guides"
       style: "floating"
-      contents:
-        - section: "Getting Started"
-          href: getting_started/index.qmd
-          contents:
-          - href: getting_started/how_to_deposit.qmd
-            text: "How to Deposit"
-          - href: getting_started/how_to_download.qmd
-            text: "How to Download"
+      contents: guides
 
 language:
   title-block-modified: "Last Updated"
