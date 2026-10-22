@@ -15,5 +15,5 @@ When preparing your dataset for publication, consider the following:
 
 ::: {.callout-tip}
 ## Ready to Deposit? 
-Follow steps outlined in our [Deposit Your Data](deposit_your_data.qmd) guide
+Follow steps outlined in our [Deposit Your Data](deposit-your-data.qmd) guide
 :::

@@ -14,7 +14,7 @@ and data policies.
 ## Deposit Your Data
 How to upload faculty research data for review and publication.
 
-[**Deposit guide →**](how-to/deposit_your_data.qmd){.btn .btn-primary}
+[**Deposit guide →**](how-to/deposit-your-data.qmd){.btn .btn-primary}
 
 ## Go to Dataverse
 Browse, search, and download datasets.

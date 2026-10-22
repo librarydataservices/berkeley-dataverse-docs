@@ -7,7 +7,7 @@ order: 20
 
 :::{.callout-note .mb-4}
 ## Before you start
-- [Prepare your data](prepare_your_data.qmd) for deposit
+- [Prepare your data](prepare-your-data.qmd) for deposit
 - Review Faculty Research Data Collection policies
 - Have your CalNet ID ready
 :::
