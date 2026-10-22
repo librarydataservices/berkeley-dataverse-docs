@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Getting Started – UC Berkeley Library Dataverse Docs</title>
+<title>About – UC Berkeley Library Dataverse Docs</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -43,9 +43,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-axe/axe.min.js"></script>
+<script src="../site_libs/quarto-axe/axe-check.js" type="module"></script>
+<script id="quarto-axe-checker-options" type="text/plain">dHJ1ZQ==</script>
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-9caae26007dd9b2c98d114b563f97f88.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-6d3c29e2e98d88be28306729504ca61d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,8 +89,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/ucb_library_dataverse_logo.png" alt="" class="navbar-logo light-content">
-    <img src="../assets/ucb_library_dataverse_logo.png" alt="" class="navbar-logo dark-content">
+    <img src="../assets/ucbl_dataverse_docs_logo.png" alt="UC Berkeley Library Dataverse Docs Logo" class="navbar-logo light-content">
+    <img src="../assets/ucbl_dataverse_docs_logo.png" alt="UC Berkeley Library Dataverse Docs Logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -95,18 +98,25 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../about/index.html" aria-current="page"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../how-to/index.html"> 
+<span class="menu-text">How To</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../faqs/index.html"> 
+<span class="menu-text">FAQs</span></a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://datasets.lib.berkeley.edu/"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="../getting_started/index.html" aria-current="page"> 
-<span class="menu-text">Getting Started</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="https://datasets.lib.berkeley.edu/" target="_blank"> <i class="bi bi-box-arrow-up-right" role="img">
+</i> 
+<span class="menu-text">Go to Dataverse</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -119,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../getting_started/index.html">Getting Started</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../about/index.html">About</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -131,43 +141,42 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../getting_started/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Getting Started</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../getting_started/how_to_deposit.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How to Deposit</span></a>
+  <a href="../about/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">About</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../getting_started/how_to_download.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How to Download</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#dataverse-collections" id="toc-dataverse-collections" class="nav-link active" data-scroll-target="#dataverse-collections">Dataverse Collections</a>
+  <ul class="collapse">
+  <li><a href="#licensed-data" id="toc-licensed-data" class="nav-link" data-scroll-target="#licensed-data">Licensed Data</a></li>
+  <li><a href="#faculty-research-data" id="toc-faculty-research-data" class="nav-link" data-scroll-target="#faculty-research-data">Faculty Research Data</a></li>
+  <li><a href="#institute-of-governmental-studies-igs-polls" id="toc-institute-of-governmental-studies-igs-polls" class="nav-link" data-scroll-target="#institute-of-governmental-studies-igs-polls">Institute of Governmental Studies (IGS) Polls</a></li>
+  </ul></li>
+  <li><a href="#data-not-in-dataverse" id="toc-data-not-in-dataverse" class="nav-link" data-scroll-target="#data-not-in-dataverse">Data Not in Dataverse</a>
+  <ul class="collapse">
+  <li><a href="#gis-data" id="toc-gis-data" class="nav-link" data-scroll-target="#gis-data">GIS data</a></li>
+  <li><a href="#articles-preprints-dissertations-conference-presentations-and-other-documents" id="toc-articles-preprints-dissertations-conference-presentations-and-other-documents" class="nav-link" data-scroll-target="#articles-preprints-dissertations-conference-presentations-and-other-documents">Articles, Preprints, Dissertations, Conference Presentations and other documents</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Getting Started</h1>
+<h1 class="title">About</h1>
 </div>
 
 
@@ -184,9 +193,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Temp</p>
+<p><a href="https://datasets.lib.berkeley.edu/">UC Berkeley (UCB) Library Dataverse</a> is a repository where users can find data relevant to the UC Berkeley Community and beyond, including datasets licensed for use in research, teaching, and learning, as well as research data generated by UC Berkeley faculty.</p>
+<p>UC Berkeley Library Dataverse is managed and maintained by the Library’s <a href="https://www.lib.berkeley.edu/research/data-services">Data + Digital Scholarship Services</a> and Library IT. It is deployed using <a href="https://dataverse.org/">The Dataverse Project</a>, an open-source repository software, and is distinct from Harvard Dataverse and other <a href="https://dataverse.org/installations">Dataverse installations around the world</a>.</p>
+<p>Datasets in UC Berkeley Library Dataverse can be found across three collections:</p>
+<ul>
+<li><a href="https://datasets.lib.berkeley.edu/dataverse/licensed_data">UC Berkeley Library Licensed Data</a><br>
+</li>
+<li><a href="https://datasets.lib.berkeley.edu/dataverse/oskidata">UC Berkeley Faculty Research Data</a><br>
+</li>
+<li><a href="https://datasets.lib.berkeley.edu/dataverse/igs">Institute of Governmental Studies Polls</a></li>
+</ul>
+<p>While some datasets in Dataverse are restricted, metadata and terms of use are viewable by anyone.</p>
+<section id="dataverse-collections" class="level2">
+<h2 class="anchored" data-anchor-id="dataverse-collections">Dataverse Collections</h2>
+<section id="licensed-data" class="level3">
+<h3 class="anchored" data-anchor-id="licensed-data">Licensed Data</h3>
+<p>The UC Berkeley Library licenses and acquires datasets for use by UC Berkeley and Lawrence Berkeley National Lab students, faculty, and staff. If you cannot find the data you are looking for, please contact your <a href="https://www.lib.berkeley.edu/help/subject-librarians">subject librarian</a> to identify a suitable alternative or suggest a purchase.</p>
+<p>Please login to the repository using a Calnet ID and passphrase to view and download licensed data files. Note that accessing some data files requires agreeing to the terms of use and registering with a guestbook.</p>
+</section>
+<section id="faculty-research-data" class="level3">
+<h3 class="anchored" data-anchor-id="faculty-research-data">Faculty Research Data</h3>
+<p>UC Berkeley Research Faculty and their research partners may publish and share datasets through UCB Library’s Dataverse. All datasets are reviewed by a curator prior to publication, who reviews datasets for quality control, metadata, and proper documentation.</p>
+<p>Before using data in this collection, please review the license, any custom terms of use, and contact the dataset author or the <a href="https://www.lib.berkeley.edu/research/data-services">Data + Digital Scholarship Services</a> with questions. For more information please see <a href="https://docs.google.com/document/d/11FGTM4tjlI5I0eAW4G9HPG8m8F_-n8oGM2iA4HaqT6k/edit?usp=sharing">UC Berkeley Library Dataverse FAQs</a>.</p>
+</section>
+<section id="institute-of-governmental-studies-igs-polls" class="level3">
+<h3 class="anchored" data-anchor-id="institute-of-governmental-studies-igs-polls">Institute of Governmental Studies (IGS) Polls</h3>
+<p>The <a href="https://igs.berkeley.edu/research/berkeley-igs-poll">Berkeley IGS Poll</a> is a periodic survey of California public opinion on important matters of politics, public policy, and public issues. The poll, which is disseminated widely, seeks to provide a broad measure of contemporary public opinion, and to generate data for subsequent scholarly analysis. The poll was previously titled the “California Public Opinion Poll,” which is organized by decade and goes back to 1950.</p>
+</section>
+</section>
+<section id="data-not-in-dataverse" class="level2">
+<h2 class="anchored" data-anchor-id="data-not-in-dataverse">Data Not in Dataverse</h2>
+<section id="gis-data" class="level3">
+<h3 class="anchored" data-anchor-id="gis-data">GIS data</h3>
+<p>Most GIS data held by UC Berkeley Library can be found in our <a href="https://geodata.lib.berkeley.edu/">GeoData Portal</a>, which holds data for areas around the world, with an emphasis on the nine county San Francisco Bay Area and northern California.</p>
+<p>GIS data in UC Berkeley Library Dataverse is limited to faculty research data or licensed datasets accessible only to UC Berkeley affiliates.</p>
+</section>
+<section id="articles-preprints-dissertations-conference-presentations-and-other-documents" class="level3">
+<h3 class="anchored" data-anchor-id="articles-preprints-dissertations-conference-presentations-and-other-documents">Articles, Preprints, Dissertations, Conference Presentations and other documents</h3>
+<p><a href="https://escholarship.org/">eScholarship</a> is the University of California’s Institutional Repository for traditional scholarly outputs.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -590,6 +638,32 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright © 2026 The Regents of the University of California</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:librarydataservices@berkeley.edu" target="_blank">
+      <i class="bi bi-envelope" role="img" aria-label="Email Library Data Services">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/librarydataservices/berkeley-dataverse-docs" target="_blank">
+      <i class="bi bi-github" role="img" aria-label="GitHub Repository for this site">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 

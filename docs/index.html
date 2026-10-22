@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>UC Berkeley Library Dataverse Documentation – UC Berkeley Library Dataverse Docs</title>
+<title>Documentation: UC Berkeley Library Dataverse – UC Berkeley Library Dataverse Docs</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -43,9 +43,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/quarto-axe/axe.min.js"></script>
+<script src="site_libs/quarto-axe/axe-check.js" type="module"></script>
+<script id="quarto-axe-checker-options" type="text/plain">dHJ1ZQ==</script>
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9caae26007dd9b2c98d114b563f97f88.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6d3c29e2e98d88be28306729504ca61d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -86,8 +89,8 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./assets/ucb_library_dataverse_logo.png" alt="" class="navbar-logo light-content">
-    <img src="./assets/ucb_library_dataverse_logo.png" alt="" class="navbar-logo dark-content">
+    <img src="./assets/ucbl_dataverse_docs_logo.png" alt="UC Berkeley Library Dataverse Docs Logo" class="navbar-logo light-content">
+    <img src="./assets/ucbl_dataverse_docs_logo.png" alt="UC Berkeley Library Dataverse Docs Logo" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -95,18 +98,25 @@ ul.task-list li input[type="checkbox"] {
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about/index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./how-to/index.html"> 
+<span class="menu-text">How To</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./faqs/index.html"> 
+<span class="menu-text">FAQs</span></a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://datasets.lib.berkeley.edu/"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./getting_started/index.html"> 
-<span class="menu-text">Getting Started</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="https://datasets.lib.berkeley.edu/" target="_blank"> <i class="bi bi-box-arrow-up-right" role="img">
+</i> 
+<span class="menu-text">Go to Dataverse</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -119,21 +129,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#research-data-support-at-uc-berkeley" id="toc-research-data-support-at-uc-berkeley" class="nav-link active" data-scroll-target="#research-data-support-at-uc-berkeley">Research Data Support at UC Berkeley</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">UC Berkeley Library Dataverse Documentation</h1>
+<h1 class="title">Documentation: UC Berkeley Library Dataverse</h1>
 </div>
 
 
@@ -150,11 +152,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to the UC Berkeley Library Dataverse documentation website. Here you can find information on how to get started with Dataverse, including guides for depositing and downloading datasets.</p>
-<section id="research-data-support-at-uc-berkeley" class="level2">
-<h2 class="anchored" data-anchor-id="research-data-support-at-uc-berkeley">Research Data Support at UC Berkeley</h2>
-<p>UC Berkeley Library Dataverse is managed and maintained by the Library’s <a href="https://www.lib.berkeley.edu/research/data-services">Data + Digital Scholarship Services</a> and Library IT.</p>
-<p>For additional research data support at UC Berkeley, contact our <a href="https://researchdata.berkeley.edu/">Research Data Management Program</a>. To find GIS data, visit the Library’s <a href="https://geodata.lib.berkeley.edu/">GeoData Portal</a>.</p>
+<p>UC Berkeley Library Dataverse is a repository for datasets licensed for use in research, teaching, and learning, as well as research data generated by UC Berkeley faculty. It is managed by the Library’s <a href="https://www.lib.berkeley.edu/research/data-services">Data + Digital Scholarship Services</a>.</p>
+<section id="about" class="level2">
+<h2 class="anchored" data-anchor-id="about">About</h2>
+<p>What’s in the repository, our collections, and data policies.</p>
+<p><a href="./about/index.html" class="btn btn-primary"><strong>Learn more →</strong></a></p>
+</section>
+<section id="deposit-your-data" class="level2">
+<h2 class="anchored" data-anchor-id="deposit-your-data">Deposit Your Data</h2>
+<p>How to upload faculty research data for review and publication.</p>
+<p><a href="./how-to/deposit-your-data.html" class="btn btn-primary"><strong>Deposit guide →</strong></a></p>
+</section>
+<section id="go-to-dataverse" class="level2">
+<h2 class="anchored" data-anchor-id="go-to-dataverse">Go to Dataverse</h2>
+<p>Browse, search, and download datasets.</p>
+<p><a href="https://datasets.lib.berkeley.edu/" class="btn btn-primary"><strong>UC Berkeley Library Dataverse →</strong></a></p>
 
 
 </section>
@@ -561,6 +573,32 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright © 2026 The Regents of the University of California</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:librarydataservices@berkeley.edu" target="_blank">
+      <i class="bi bi-envelope" role="img" aria-label="Email Library Data Services">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/librarydataservices/berkeley-dataverse-docs" target="_blank">
+      <i class="bi bi-github" role="img" aria-label="GitHub Repository for this site">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
