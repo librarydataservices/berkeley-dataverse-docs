@@ -11,7 +11,7 @@ What's in our collections and policies.
 [**Learn more →**](about/index.qmd){.btn .btn-primary}
 
 ## Deposit Your Data
-How to upload faculty research data for review and publication.
+Learn how to upload research data for publication.
 
 [**Deposit guide →**](how-to/deposit-your-data.qmd){.btn .btn-primary}
 
