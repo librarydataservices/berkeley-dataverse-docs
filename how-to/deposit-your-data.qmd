@@ -1,6 +1,6 @@
 ---
 title: Deposit Your Data
-subtitle: How to deposit data with the UC Berkeley Faculty Research Data Collection.
+subtitle: How to deposit data in the UC Berkeley Faculty Research Data Collection.
 sidebar: how-to
 order: 20
 ---
