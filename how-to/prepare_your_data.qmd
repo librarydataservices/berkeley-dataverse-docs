@@ -1,0 +1,19 @@
+---
+title: "Prepare Your Data"
+order: 10
+page-navigation: true
+---
+
+When preparing your dataset for publication, consider the following:
+
+- **Completeness:** UC Berkeley Library Dataverse is designed for finalized data.
+- **Documentation:** Include or create documentation (such as a README or codebook) that describes how your dataset was created, defines all variables, and identifies relationships between files. See the Cornell’s [Writing READMEs for Research Data](https://data.research.cornell.edu/data-management/sharing/readme/) guide.
+- **Preservation:** Use [open file formats](https://www.nnlm.gov/resources/data/data-glossary/open-file-formats) where possible and closed formats only as necessary.
+- **File Organization:** Use consistent [file and folder naming conventions](https://datamanagement.hms.harvard.edu/plan-design/file-naming-conventions).
+
+<br>
+
+::: {.callout-tip}
+## Ready to Deposit? 
+Follow steps outlined in our [Deposit Your Data](deposit_your_data.qmd) guide
+:::

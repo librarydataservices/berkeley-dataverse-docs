@@ -1,0 +1,94 @@
+---
+title: Deposit Your Data
+subtitle: How to deposit data with the UC Berkeley Faculty Research Data Collection.
+sidebar: how-to
+order: 20
+---
+
+:::{.callout-note .mb-4}
+## Before you start
+- [Prepare your data](prepare_your_data.qmd) for deposit
+- Review Faculty Research Data Collection policies
+- Have your CalNet ID ready
+:::
+
+## Request Upload Access
+
+**Submit a [deposit interest form](https://berkeley.qualtrics.com/jfe/form/SV_dhxkjrglLbPeVBI)** with basic information about your dataset.
+
+A member of Data + Digital Scholarship Services will review your request, grant you upload access, and follow up with next steps before you proceed.
+
+## Log In and Create a Dataset
+
+**Log in** to UC Berkeley Library Dataverse with your CalNet ID and navigate to the **[Faculty Research Data Collection](https://datasets.lib.berkeley.edu/dataverse/oskidata)**.
+
+Click **"+ Add Data"** → **"New Dataset."**
+
+Select a **dataset template** that matches your subject area, or select "None." Templates pre-populate certain fields but don't limit what metadata you can enter.
+
+:::{.callout-important}
+If you don't see an **"+ Add Data"** button, your upload access may not yet be configured. Contact [librarydataservices@berkeley.edu](mailto:librarydataservices@berkeley.edu) to adjust your permissions.
+:::
+
+## Add Required Metadata
+
+Fill out the following required fields:
+
+- **Title** — main title of the dataset
+- **Author** — people or organizations that created the dataset
+- **Point of Contact** — entity users can contact; email required
+- **Description** — summary of purpose, nature, and scope
+- **Subject** — area of study
+
+Hover over the <i class="bi bi-question-circle"></i> icon next to any field for its definition.
+
+## Upload Files
+
+Drag and drop files into the upload area, or click "Select Files to Add." To preserve folder structure, 
+upload a `.zip` file. Maximum 1,000 files per batch — for larger deposits, see [API upload instructions on GitHub](https://github.com/librarydataservices/berkeley-dataverse-upload).
+
+Dataverse automatically creates archival `.tab` versions of Stata, SPSS, R, Excel, CSV, and TSV files. Your originals are preserved.
+
+Click **"Save Dataset."**
+
+:::{.callout-tip}
+A DOI is reserved as soon as you save. You can include it in manuscripts or grant applications now — it will resolve publicly once the dataset is published.
+:::
+
+## Add Supplementary Metadata
+
+Return to the dataset page → **Metadata** tab → **"Add + Edit Metadata"**
+
+Add all metadata relevant to your discipline. You don't need to complete every section, only those that apply to your dataset.
+
+- Citation Metadata _(all deposits)_
+- Geospatial Metadata
+- Social Science and Humanities Metadata
+- Astronomy and Astrophysics Metadata
+- Life Sciences Metadata
+
+## Set Terms and Access
+
+Return to the dataset page → **Terms** tab → **"Edit Terms Requirements"** and select a license:
+
+- [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) 
+- [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Or select "Custom Terms" to define your own terms of use
+
+Optionally, you may enable a **guestbook** to collect user information before download. Select **"Standard Guestbook — Faculty Research Data."** Guestbooks are not generally recommended for open access datasets (e.g., CC0, CC BY 4.0).
+
+For licensing guidance, contact Scholarly Communication and Information Policy: 
+[schol-comm@berkeley.edu](mailto:schol-comm@berkeley.edu)
+
+## Submit for Review
+
+Click **"Submit for Review"** on the dataset page, confirm your license, and submit.
+
+Your dataset will be reviewed following the [CURATE(D) model](https://conservancy.umn.edu/items/2449305b-4cdc-4fbc-9902-2795b020c939). A member of Data + Digital Scholarship services may suggest changes to improve reusability.
+
+:::{.callout-warning}
+Once published, a dataset cannot be deleted — only new 
+versions can be created. See 
+[Dataset Versions](https://guides.dataverse.org/en/latest/user/dataset-management.html#dataset-versions) 
+for details.
+:::

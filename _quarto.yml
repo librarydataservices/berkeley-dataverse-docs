@@ -9,10 +9,12 @@ website:
     logo: assets/ucbl_dataverse_docs_logo.png
     logo-alt: "UC Berkeley Library Dataverse Docs Logo"
     left:
-      - href: guides/index.qmd
-        text: "Guides"
       - href: about/index.qmd
         text: "About"
+      - href: how-to/index.qmd
+        text: "How To"
+      - href: faqs/index.qmd
+        text: "FAQs"
     right:
       - href: https://datasets.lib.berkeley.edu/
         text: "Go to Dataverse"
@@ -36,10 +38,10 @@ website:
       title: "About"
       style: "floating"
       contents: about
-    - id: guides
-      title: "Guides"
+    - id: how-to
+      title: "How To"
       style: "floating"
-      contents: guides
+      contents: how-to
 
 language:
   title-block-modified: "Last Updated"
