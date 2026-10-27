@@ -1,18 +1,23 @@
 ---
 title: "How To"
 sidebar: how-to
+listing: 
+    type: table
+    contents: "*.qmd"
+    fields: [title, subtitle]
+    field-display-names: 
+      subtitle: "Description"
+    sort: order
+    table-striped: true
 order: 0
+# toc: false
 ---
 
 Step-by-step guides for depositing research data 
 with UC Berkeley Library Dataverse.
 
-| Guide | Description |
-|---|---|
-| [Prepare Your Data](prepare-your-data.qmd) | Get your dataset ready for deposit |
-| [Deposit Your Data](deposit-your-data.qmd) | Upload data, create metadata, and submit for review |
-<br>
-
-::: {.callout-note}
+::: {.callout-note .mb-4}
 Looking for something else? [Contact us](mailto:librarydataservices@berkeley.edu).
 :::
+
+## Guides 
