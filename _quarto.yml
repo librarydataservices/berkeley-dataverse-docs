@@ -57,6 +57,8 @@ format:
       body-width: 750px
       margin-width: 300px
     axe: true
-
+    include-in-header:
+      - text: |
+          <script src="/assets/a11y-fixes.js"></script>
 
 
