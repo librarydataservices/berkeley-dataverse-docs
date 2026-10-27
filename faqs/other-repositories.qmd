@@ -1,0 +1,6 @@
+---
+title: I want to publish my data in a different repository. What are my options? 
+categories: [Faculty Research Data, Deposit]
+---
+
+The UC Berkeley Library provides memberships to a variety of repositories, including Dryad and ICPSR. Please contact [librarydataservices@berkeley.edu](mailto:librarydataservices@berkeley.edu) for guidance.
