@@ -68,3 +68,8 @@ a:hover {
 strong a, b a, a strong, a b {
     font-weight: bold !important;
 }
+
+/* Bold text for sortable columns in listing */
+.sort {
+  font-weight: bold;
+}

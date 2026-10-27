@@ -32,32 +32,50 @@
     "href": "how-to/index.html",
     "title": "How To",
     "section": "",
-    "text": "Step-by-step guides for depositing research data with UC Berkeley Library Dataverse.\n\n\n\nGuide\nDescription\n\n\n\n\nPrepare Your Data\nGet your dataset ready for deposit\n\n\nDeposit Your Data\nUpload data, create metadata, and submit for review\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nLooking for something else? Contact us.",
+    "text": "Step-by-step guides for depositing research data with UC Berkeley Library Dataverse.",
     "crumbs": [
       "About",
       "How To"
     ]
   },
   {
-    "objectID": "faqs/index.html",
-    "href": "faqs/index.html",
-    "title": "FAQs",
-    "section": "",
-    "text": "COMING SOON"
+    "objectID": "how-to/index.html#guides",
+    "href": "how-to/index.html#guides",
+    "title": "How To",
+    "section": "Guides",
+    "text": "Guides",
+    "crumbs": [
+      "About",
+      "How To"
+    ]
   },
   {
-    "objectID": "faqs/index.html#licensed-data-collection",
-    "href": "faqs/index.html#licensed-data-collection",
-    "title": "FAQs",
+    "objectID": "faqs/why-deposit.html",
+    "href": "faqs/why-deposit.html",
+    "title": "Why should I deposit data in the Faculty Research Data Collection?",
     "section": "",
-    "text": "COMING SOON"
+    "text": "You should deposit data in the Faculty Research Data Collection for any ofthe following reasons:\n\nTo comply with funder or publisher data sharing requirements\nEnsure reliable, managed access to data\nIncrease scholarly impact through discoverability\nCollaborate with research teams\nSelect a CC0 or CC BY license"
   },
   {
-    "objectID": "faqs/index.html#faculty-research-data-collection",
-    "href": "faqs/index.html#faculty-research-data-collection",
-    "title": "FAQs",
-    "section": "Faculty Research Data Collection",
-    "text": "Faculty Research Data Collection\n\n\n\n\n\n\nNoteWho can deposit data in the Faculty Research Data Collection?\n\n\n\n\n\nUC Berkeley senate faculty, or a researcher designated by the faculty member to use their allocation, may deposit data for publication.\nFunding for this data publishing service, which is a component of the Data Storage Allocation pilot program, was made available following advocacy by the Senate Committee on Information Technology (CIT) and DIVCO to address data storage issues faced specifically by faculty. As a result, the scope of this initial pilot is focused on senate faculty.\n\n\n\n\n\n\n\n\n\nNoteWhy should I deposit data in the Faculty Research Data Collection?\n\n\n\n\n\n\nTo comply with funder or publisher data sharing requirements\n\nEnsure reliable, managed access to data\n\nIncrease scholarly impact through discoverability\n\nCollaborate with research teams\n\nSelect a CC0 or CC BY license\n\n\n\n\n\n\n\n\n\n\nNoteI have data that updates regularly, can I deposit it with the Faculty Research Data Collection?\n\n\n\n\n\nThe Faculty Research Data Collection is not designed to support continuously updated data, as all datasets must go through a manual curation and review process. Please reach out to librarydataservices@berkeley.edu if you would like to discuss depositing snapshots of dynamic data.\n\n\n\n\n\n\n\n\n\nNoteWhat data protection levels are safe to deposit with the Faculty Research Data Collection?\n\n\n\n\n\nData up to protection level 2 may be deposited with the Faculty Research Data Collection.\nFor guidance on data classification, review the Information Security Office’s How to Classify Research Data resource or contact the Research Data Management Program.\n\n\n\n\n\n\n\n\n\nNoteI need to publish code - where can I do that?\n\n\n\n\n\nThe UC Berkeley Library Data Services program recommends the Zenodo repository for publishing code. Please contact librarydataservices@berkeley.edu with questions.\n\n\n\n\n\n\n\n\n\nNoteI want to publish my data in a different repository. What are my options?\n\n\n\n\n\nThe UC Berkeley Library provides memberships to a variety of repositories, including Dryad and ICPSR. Please contact librarydataservices@berkeley.edu for guidance."
+    "objectID": "faqs/regularly-updated-data.html",
+    "href": "faqs/regularly-updated-data.html",
+    "title": "I have data that updates regularly, can I deposit it with the Faculty Research Data Collection?",
+    "section": "",
+    "text": "The Faculty Research Data Collection is not designed to support continuously updated data, as all datasets must go through a manual curation and review process. Please reach out to librarydataservices@berkeley.edu if you would like to discuss depositing snapshots of dynamic data."
+  },
+  {
+    "objectID": "faqs/other-repositories.html",
+    "href": "faqs/other-repositories.html",
+    "title": "I want to publish my data in a different repository. What are my options?",
+    "section": "",
+    "text": "The UC Berkeley Library provides memberships to a variety of repositories, including Dryad and ICPSR. Please contact librarydataservices@berkeley.edu for guidance."
+  },
+  {
+    "objectID": "faqs/data-protection-levels.html",
+    "href": "faqs/data-protection-levels.html",
+    "title": "What data protection levels are safe to deposit with the Faculty Research Data Collection?",
+    "section": "",
+    "text": "Data up to protection level 2 may be deposited with the Faculty Research Data Collection.\nFor guidance on data classification, review the Information Security Office’s How to Classify Research Data resource or contact the Research Data Management Program."
   },
   {
     "objectID": "about/index.html",
@@ -88,6 +106,27 @@
     "crumbs": [
       "About"
     ]
+  },
+  {
+    "objectID": "faqs/index.html",
+    "href": "faqs/index.html",
+    "title": "FAQs",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Question\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nQuestion\n\n\n\nLast Updated\n\n\n\n\n\n\n\n\nCan I publish code with the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nI have data that updates regularly, can I deposit it with the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nI want to publish my data in a different repository. What are my options?\n\n\nOct 27, 2026\n\n\n\n\n\n\nWhat data protection levels are safe to deposit with the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nWho can deposit data in the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nWhy should I deposit data in the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "faqs/publish-code.html",
+    "href": "faqs/publish-code.html",
+    "title": "Can I publish code with the Faculty Research Data Collection?",
+    "section": "",
+    "text": "While the Faculty Research Data Collection supports deposits of any file type, we recommend publishing primarily code-based datasets to Zenodo. Please contact librarydataservices@berkeley.edu with questions."
+  },
+  {
+    "objectID": "faqs/who-can-deposit.html",
+    "href": "faqs/who-can-deposit.html",
+    "title": "Who can deposit data in the Faculty Research Data Collection?",
+    "section": "",
+    "text": "UC Berkeley senate faculty, or a researcher designated by the faculty member to use their allocation, may deposit data for publication.\nFunding for this data publishing service, which is a component of the Data Storage Allocation pilot program, was made available following advocacy by the Senate Committee on Information Technology (CIT) and DIVCO to address data storage issues faced specifically by faculty. As a result, the scope of this initial pilot is focused on senate faculty."
   },
   {
     "objectID": "how-to/deposit-your-data.html",

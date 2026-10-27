@@ -36,6 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -76,7 +78,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script src="../assets/a11y-fixes.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -130,15 +191,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#licensed-data-collection" id="toc-licensed-data-collection" class="nav-link active" data-scroll-target="#licensed-data-collection">Licensed Data Collection</a></li>
-  <li><a href="#faculty-research-data-collection" id="toc-faculty-research-data-collection" class="nav-link" data-scroll-target="#faculty-research-data-collection">Faculty Research Data Collection</a></li>
-  </ul>
-</nav>
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RGVwb3NpdA==">Deposit <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YQ==">Faculty Research Data <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -161,125 +214,107 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="licensed-data-collection" class="level2">
-<h2 class="anchored" data-anchor-id="licensed-data-collection">Licensed Data Collection</h2>
-<p><em>COMING SOON</em></p>
-</section>
-<section id="faculty-research-data-collection" class="level2">
-<h2 class="anchored" data-anchor-id="faculty-research-data-collection">Faculty Research Data Collection</h2>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Who can deposit data in the Faculty Research Data Collection?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>UC Berkeley senate faculty, or a researcher designated by the faculty member to use their allocation, may deposit data for publication.</p>
-<p>Funding for this data publishing service, which is a component of the Data Storage Allocation pilot program, was made available following advocacy by the Senate Committee on Information Technology (CIT) and DIVCO to address data storage issues faced specifically by faculty. As a result, the scope of this initial pilot is focused on senate faculty.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Why should I deposit data in the Faculty Research Data Collection?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ul>
-<li>To comply with funder or publisher data sharing requirements<br>
-</li>
-<li>Ensure reliable, managed access to data<br>
-</li>
-<li>Increase scholarly impact through discoverability<br>
-</li>
-<li>Collaborate with research teams<br>
-</li>
-<li>Select a CC0 or CC BY license</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>I have data that updates regularly, can I deposit it with the Faculty Research Data Collection?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The Faculty Research Data Collection is not designed to support continuously updated data, as all datasets must go through a manual curation and review process. Please reach out to <a href="mailto:librarydataservices@berkeley.edu">librarydataservices@berkeley.edu</a> if you would like to discuss depositing snapshots of dynamic data.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>What data protection levels are safe to deposit with the Faculty Research Data Collection?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Data up to protection level 2 may be deposited with the Faculty Research Data Collection.</p>
-<p>For guidance on data classification, review the Information Security Office’s <a href="https://security.berkeley.edu/how-classify-research-data">How to Classify Research Data resource</a> or contact the <a href="https://researchdata.berkeley.edu/home">Research Data Management Program</a>.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>I need to publish code - where can I do that?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The UC Berkeley Library Data Services program recommends the Zenodo repository for publishing code. Please contact <a href="mailto:librarydataservices@berkeley.edu">librarydataservices@berkeley.edu</a> with questions.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>I want to publish my data in a different repository. What are my options?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The UC Berkeley Library provides memberships to a variety of repositories, including Dryad and ICPSR. Please contact <a href="mailto:librarydataservices@berkeley.edu">librarydataservices@berkeley.edu</a> for guidance.</p>
-</div>
-</div>
-</div>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title-sort" data-direction="asc">
+        Question
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table table-striped">
+<thead>
+<tr>
+
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Question</a>
+</th>
+
+<th>
+Last Updated
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793126487402" data-listing-reading-time-sort="1" data-listing-word-count-sort="26" data-listing-title-sort="Can I publish code with the Faculty Research Data Collection?" data-listing-filename-sort="publish-code.qmd">
+<td>
+<a href="../faqs/publish-code.html" class="title listing-title">Can I publish code with the Faculty Research Data Collection?</a>
+</td>
+<td>
+<span class="listing-file-modified">Oct 27, 2026</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793126549638" data-listing-reading-time-sort="1" data-listing-word-count-sort="41" data-listing-title-sort="I have data that updates regularly, can I deposit it with the Faculty Research Data Collection?" data-listing-filename-sort="regularly-updated-data.qmd">
+<td>
+<a href="../faqs/regularly-updated-data.html" class="title listing-title">I have data that updates regularly, can I deposit it with the Faculty Research Data Collection?</a>
+</td>
+<td>
+<span class="listing-file-modified">Oct 27, 2026</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793126546487" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-title-sort="I want to publish my data in a different repository. What are my options?" data-listing-filename-sort="other-repositories.qmd">
+<td>
+<a href="../faqs/other-repositories.html" class="title listing-title">I want to publish my data in a different repository. What are my options?</a>
+</td>
+<td>
+<span class="listing-file-modified">Oct 27, 2026</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793126548619" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-listing-title-sort="What data protection levels are safe to deposit with the Faculty Research Data Collection?" data-listing-filename-sort="data-protection-levels.qmd">
+<td>
+<a href="../faqs/data-protection-levels.html" class="title listing-title">What data protection levels are safe to deposit with the Faculty Research Data Collection?</a>
+</td>
+<td>
+<span class="listing-file-modified">Oct 27, 2026</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793126559491" data-listing-reading-time-sort="1" data-listing-word-count-sort="75" data-listing-title-sort="Who can deposit data in the Faculty Research Data Collection?" data-listing-filename-sort="who-can-deposit.qmd">
+<td>
+<a href="../faqs/who-can-deposit.html" class="title listing-title">Who can deposit data in the Faculty Research Data Collection?</a>
+</td>
+<td>
+<span class="listing-file-modified">Oct 27, 2026</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793126500170" data-listing-reading-time-sort="1" data-listing-word-count-sort="46" data-listing-title-sort="Why should I deposit data in the Faculty Research Data Collection?" data-listing-filename-sort="why-deposit.qmd">
+<td>
+<a href="../faqs/why-deposit.html" class="title listing-title">Why should I deposit data in the Faculty Research Data Collection?</a>
+</td>
+<td>
+<span class="listing-file-modified">Oct 27, 2026</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
