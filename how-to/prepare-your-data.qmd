@@ -1,5 +1,6 @@
 ---
 title: "Prepare Your Data"
+subtitle: What to do before depositing data with UC Berkeley Library Dataverse.
 order: 10
 page-navigation: true
 ---
