@@ -1,0 +1,6 @@
+---
+title: I have data that updates regularly, can I deposit it with the Faculty Research Data Collection? 
+categories: [Faculty Research Data, Deposit]
+---
+
+The Faculty Research Data Collection is not designed to support continuously updated data, as all datasets must go through a manual curation and review process. Please reach out to [librarydataservices@berkeley.edu](mailto:librarydataservices@berkeley.edu) if you would like to discuss depositing snapshots of dynamic data.

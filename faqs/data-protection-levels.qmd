@@ -1,0 +1,8 @@
+---
+title: What data protection levels are safe to deposit with the Faculty Research Data Collection?
+categories: [Faculty Research Data, Deposit]
+---
+
+Data up to protection level 2 may be deposited with the Faculty Research Data Collection.
+
+For guidance on data classification, review the Information Security Office’s [How to Classify Research Data](https://security.berkeley.edu/how-classify-research-data) resource or contact the [Research Data Management Program](https://researchdata.berkeley.edu/home).

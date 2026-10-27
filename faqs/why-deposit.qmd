@@ -1,0 +1,12 @@
+---
+title: Why should I deposit data in the Faculty Research Data Collection? 
+categories: [Faculty Research Data, Deposit]
+---
+
+You should deposit data in the Faculty Research Data Collection for any ofthe following reasons:
+
+- To comply with funder or publisher data sharing requirements
+- Ensure reliable, managed access to data
+- Increase scholarly impact through discoverability
+- Collaborate with research teams
+- Select a CC0 or CC BY license

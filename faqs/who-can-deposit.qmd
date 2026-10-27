@@ -1,0 +1,8 @@
+---
+title: Who can deposit data in the Faculty Research Data Collection?
+categories: [Faculty Research Data, Deposit]
+---
+
+UC Berkeley senate faculty, or a researcher designated by the faculty member to use their allocation, may deposit data for publication.
+
+Funding for this data publishing service, which is a component of the Data Storage Allocation pilot program, was made available following advocacy by the Senate Committee on Information Technology (CIT) and DIVCO to address data storage issues faced specifically by faculty. As a result, the scope of this initial pilot is focused on senate faculty.
