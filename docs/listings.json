@@ -9,12 +9,12 @@
   {
     "listing": "/faqs/index.html",
     "items": [
-      "/faqs/publish-code.html",
+      "/faqs/why-deposit.html",
+      "/faqs/who-can-deposit.html",
+      "/faqs/data-protection-levels.html",
       "/faqs/regularly-updated-data.html",
       "/faqs/other-repositories.html",
-      "/faqs/data-protection-levels.html",
-      "/faqs/who-can-deposit.html",
-      "/faqs/why-deposit.html"
+      "/faqs/publish-code.html"
     ]
   }
 ]

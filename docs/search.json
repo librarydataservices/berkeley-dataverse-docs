@@ -54,7 +54,7 @@
     "href": "faqs/why-deposit.html",
     "title": "Why should I deposit data in the Faculty Research Data Collection?",
     "section": "",
-    "text": "You should deposit data in the Faculty Research Data Collection for any ofthe following reasons:\n\nTo comply with funder or publisher data sharing requirements\nEnsure reliable, managed access to data\nIncrease scholarly impact through discoverability\nCollaborate with research teams\nSelect a CC0 or CC BY license"
+    "text": "UC Berkeley Library Dataverse is designed to increase the scholarly impact of your research.\nAs a UC Berkeley faculty member, you might consider depositing data in the Faculty Research Data Collection for any of the following reasons:\n\nTo comply with funder or publisher data sharing requirements\nEnsure reliable access to data\nIncrease the discoverability of your research\nEncourage the reuse of your data\nPublish your data with an open license such as CC0 or CC BY"
   },
   {
     "objectID": "faqs/regularly-updated-data.html",
@@ -68,7 +68,7 @@
     "href": "faqs/other-repositories.html",
     "title": "I want to publish my data in a different repository. What are my options?",
     "section": "",
-    "text": "The UC Berkeley Library provides memberships to a variety of repositories, including Dryad and ICPSR. Please contact librarydataservices@berkeley.edu for guidance."
+    "text": "Depending on your discipline, funder requirements, dataset size, or sensitivity, another repository might be an even better fit than UC Berkeley Library Dataverse.\nThe UC Berkeley Library provides memberships to a variety of repositories, including Dryad, ICPSR, and the Qualitative Data Repository.\nIf you would like to discuss the data publication process and/or selecting the best repository for your work, please contact librarydataservices@berkeley.edu or schedule a consultation."
   },
   {
     "objectID": "faqs/data-protection-levels.html",
@@ -112,14 +112,14 @@
     "href": "faqs/index.html",
     "title": "FAQs",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Question\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nQuestion\n\n\n\nLast Updated\n\n\n\n\n\n\n\n\nCan I publish code with the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nI have data that updates regularly, can I deposit it with the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nI want to publish my data in a different repository. What are my options?\n\n\nOct 27, 2026\n\n\n\n\n\n\nWhat data protection levels are safe to deposit with the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nWho can deposit data in the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nWhy should I deposit data in the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Question\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nQuestion\n\n\n\nLast Updated\n\n\n\n\n\n\n\n\nWhy should I deposit data in the Faculty Research Data Collection?\n\n\nOct 28, 2026\n\n\n\n\n\n\nWho can deposit data in the Faculty Research Data Collection?\n\n\nOct 28, 2026\n\n\n\n\n\n\nWhat data protection levels are safe to deposit with the Faculty Research Data Collection?\n\n\nOct 28, 2026\n\n\n\n\n\n\nI have data that updates regularly, can I deposit it with the Faculty Research Data Collection?\n\n\nOct 27, 2026\n\n\n\n\n\n\nI want to publish my data in a different repository. What are my options?\n\n\nOct 28, 2026\n\n\n\n\n\n\nCan I publish code in the Faculty Research Data Collection?\n\n\nOct 28, 2026\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "faqs/publish-code.html",
     "href": "faqs/publish-code.html",
-    "title": "Can I publish code with the Faculty Research Data Collection?",
+    "title": "Can I publish code in the Faculty Research Data Collection?",
     "section": "",
-    "text": "While the Faculty Research Data Collection supports deposits of any file type, we recommend publishing primarily code-based datasets to Zenodo. Please contact librarydataservices@berkeley.edu with questions."
+    "text": "The Faculty Research Data Collection supports deposits of any file type, including code. However, for primarily code-based datasets, we recommend publishing via GitHub’s Zenodo integration.\nPlease contact librarydataservices@berkeley.edu with questions."
   },
   {
     "objectID": "faqs/who-can-deposit.html",
@@ -181,7 +181,7 @@
     "href": "how-to/deposit-your-data.html#upload-files",
     "title": "Deposit Your Data",
     "section": "Upload Files",
-    "text": "Upload Files\nDrag and drop files into the upload area, or click “Select Files to Add.” To preserve folder structure, upload a .zip file. Maximum 1,000 files per batch — for larger deposits, see API upload instructions on GitHub.\nDataverse automatically creates archival .tab versions of Stata, SPSS, R, Excel, CSV, and TSV files. Your originals are preserved.\nClick “Save Dataset.”\n\n\n\n\n\n\nTip\n\n\n\nA DOI is reserved as soon as you save. You can include it in manuscripts or grant applications now — it will resolve publicly once the dataset is published.",
+    "text": "Upload Files\nDrag and drop files into the upload area, or click “Select Files to Add” (maximum 1,000 files per batch). To preserve folder structure, upload a .zip file. For larger deposits, see API upload instructions on GitHub.\nDataverse automatically creates archival .tab versions of Stata, SPSS, R, Excel, CSV, and TSV files. Your originals are preserved.\nClick “Save Dataset.”\n\n\n\n\n\n\nTip\n\n\n\nA DOI is reserved as soon as you save. You can include it in manuscripts or grant applications now — it will resolve publicly once the dataset is published.",
     "crumbs": [
       "About",
       "How To",
