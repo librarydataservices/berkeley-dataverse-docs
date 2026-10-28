@@ -195,6 +195,33 @@ window.Quarto = {
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RGVwb3NpdA==">Deposit <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YQ==">Faculty Research Data <span class="quarto-category-count">(6)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+<!-- 
+
+ Fix: Skip to main content link
+
+Issue: https://github.com/orgs/quarto-dev/discussions/10096
+
+-->
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  var skip = document.createElement("a");
+
+  skip.href = "#quarto-content";
+
+  skip.className = "skip-link visually-hidden-focusable";
+
+  skip.textContent = "Skip to main content";
+
+  document.body.insertBefore(skip, document.body.firstChild);
+
+});
+
+</script>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -282,17 +309,7 @@ Last Updated
 
 </tr>
 
-<tr data-index="3" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793126549638" data-listing-reading-time-sort="1" data-listing-word-count-sort="41" data-listing-title-sort="I have data that updates regularly, can I deposit it with the Faculty Research Data Collection?" data-listing-filename-sort="regularly-updated-data.qmd">
-<td>
-<a href="../faqs/regularly-updated-data.html" class="title listing-title">I have data that updates regularly, can I deposit it with the Faculty Research Data Collection?</a>
-</td>
-<td>
-<span class="listing-file-modified">Oct 27, 2026</span>
-</td>
-
-</tr>
-
-<tr data-index="4" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793199176514" data-listing-reading-time-sort="1" data-listing-word-count-sort="66" data-listing-title-sort="I want to publish my data in a different repository. What are my options?" data-listing-filename-sort="other-repositories.qmd">
+<tr data-index="3" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793199176514" data-listing-reading-time-sort="1" data-listing-word-count-sort="66" data-listing-title-sort="I want to publish my data in a different repository. What are my options?" data-listing-filename-sort="other-repositories.qmd">
 <td>
 <a href="../faqs/other-repositories.html" class="title listing-title">I want to publish my data in a different repository. What are my options?</a>
 </td>
@@ -302,9 +319,19 @@ Last Updated
 
 </tr>
 
-<tr data-index="5" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793199490685" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="Can I publish code in the Faculty Research Data Collection?" data-listing-filename-sort="publish-code.qmd">
+<tr data-index="4" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793199490685" data-listing-reading-time-sort="1" data-listing-word-count-sort="30" data-listing-title-sort="Can I publish code in the Faculty Research Data Collection?" data-listing-filename-sort="publish-code.qmd">
 <td>
 <a href="../faqs/publish-code.html" class="title listing-title">Can I publish code in the Faculty Research Data Collection?</a>
+</td>
+<td>
+<span class="listing-file-modified">Oct 28, 2026</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-categories="RmFjdWx0eSUyMFJlc2VhcmNoJTIwRGF0YSUyQ0RlcG9zaXQ=" data-listing-file-modified-sort="1793201000952" data-listing-reading-time-sort="1" data-listing-word-count-sort="41" data-listing-title-sort="I have data that updates regularly, can I deposit it with the Faculty Research Data Collection?" data-listing-filename-sort="regularly-updated-data.qmd">
+<td>
+<a href="../faqs/regularly-updated-data.html" class="title listing-title">I have data that updates regularly, can I deposit it with the Faculty Research Data Collection?</a>
 </td>
 <td>
 <span class="listing-file-modified">Oct 28, 2026</span>
