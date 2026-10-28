@@ -23,6 +23,13 @@ website:
         target: _blank
   page-footer:
     left: Copyright © 2026 The Regents of the University of California
+    center:
+      - text: PRIVACY
+        href: https://lib.berkeley.edu/about/privacy-policy
+      - text: ACCESSIBILITY
+        href: https://dac.berkeley.edu/web-accessibility
+      - text: NONDISCRIMINATION
+        href: https://ophd.berkeley.edu/policies-and-procedures/nondiscrimination-policy-statement
     right:
       - icon: envelope
         href: mailto:librarydataservices@berkeley.edu
