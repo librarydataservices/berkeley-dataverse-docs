@@ -69,6 +69,8 @@ strong a, b a, a strong, a b {
     font-weight: bold !important;
 }
 
+
+/* ---Custom Listing Styles--- */
 /* Bold text for sortable columns in listing */
 .sort {
   font-weight: bold;
