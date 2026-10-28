@@ -44,8 +44,7 @@ Hover over the <i class="bi bi-question-circle"></i> icon next to any field for 
 
 ## Upload Files
 
-Drag and drop files into the upload area, or click "Select Files to Add." To preserve folder structure, 
-upload a `.zip` file. Maximum 1,000 files per batch — for larger deposits, see [API upload instructions on GitHub](https://github.com/librarydataservices/berkeley-dataverse-upload).
+Drag and drop files into the upload area, or click "Select Files to Add" (maximum 1,000 files per batch). To preserve folder structure, upload a `.zip` file. For larger deposits, see [API upload instructions on GitHub](https://github.com/librarydataservices/berkeley-dataverse-upload).
 
 Dataverse automatically creates archival `.tab` versions of Stata, SPSS, R, Excel, CSV, and TSV files. Your originals are preserved.
 
