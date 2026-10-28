@@ -4,6 +4,7 @@ project:
 
 website:
   title: "UC Berkeley Library Dataverse Docs"
+  favicon: assets/favicon.ico
   navbar:
     title: false
     logo: assets/ucbl_dataverse_docs_logo.png
