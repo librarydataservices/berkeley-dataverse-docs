@@ -1,6 +1,8 @@
 ---
-title: Can I publish code with the Faculty Research Data Collection?
+title: Can I publish code in the Faculty Research Data Collection?
 categories: [Faculty Research Data, Deposit]
 ---
 
-While the Faculty Research Data Collection supports deposits of any file type,  we recommend publishing primarily code-based datasets to Zenodo. Please contact [librarydataservices@berkeley.edu](mailto:librarydataservices@berkeley.edu) with questions.
+The Faculty Research Data Collection supports deposits of any file type, including code. However, for primarily code-based datasets, we recommend publishing via [GitHub's Zenodo integration](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content). 
+
+Please contact [librarydataservices@berkeley.edu](mailto:librarydataservices@berkeley.edu) with questions.

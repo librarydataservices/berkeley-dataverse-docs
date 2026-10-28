@@ -3,4 +3,8 @@ title: I want to publish my data in a different repository. What are my options?
 categories: [Faculty Research Data, Deposit]
 ---
 
-The UC Berkeley Library provides memberships to a variety of repositories, including Dryad and ICPSR. Please contact [librarydataservices@berkeley.edu](mailto:librarydataservices@berkeley.edu) for guidance.
+Depending on your discipline, funder requirements, dataset size, or sensitivity, another repository might be an even better fit than UC Berkeley Library Dataverse.
+
+The UC Berkeley Library provides memberships to a variety of repositories, including [Dryad](https://datadryad.org/), [ICPSR](https://www.icpsr.umich.edu/sites/icpsr/home), and the [Qualitative Data Repository](https://qdr.syr.edu/). 
+
+If you would like to discuss the data publication process and/or selecting the best repository for your work, please contact [librarydataservices@berkeley.edu](mailto:librarydataservices@berkeley.edu) or [schedule a consultation](https://berkeley.libcal.com/appointments/jakegibson).

@@ -1,12 +1,15 @@
 ---
 title: Why should I deposit data in the Faculty Research Data Collection? 
 categories: [Faculty Research Data, Deposit]
+order: 0
 ---
 
-You should deposit data in the Faculty Research Data Collection for any ofthe following reasons:
+UC Berkeley Library Dataverse is designed to increase the scholarly impact of your research. 
+
+As a UC Berkeley faculty member, you might consider depositing data in the [Faculty Research Data Collection](https://datasets.lib.berkeley.edu/dataverse/oskidata) for any of the following reasons:
 
 - To comply with funder or publisher data sharing requirements
-- Ensure reliable, managed access to data
-- Increase scholarly impact through discoverability
-- Collaborate with research teams
-- Select a CC0 or CC BY license
+- Ensure reliable access to data
+- Increase the discoverability of your research
+- Encourage the reuse of your data
+- Publish your data with an open license such as [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en) or [CC BY](https://creativecommons.org/licenses/by/4.0/deed.en)

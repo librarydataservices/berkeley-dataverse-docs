@@ -10,6 +10,9 @@ listing:
     date-format: medium
     categories: true
     table-striped: true
+    sort:
+        - order
+        - file-modified
 toc: false
 date-modified: ""
 ---

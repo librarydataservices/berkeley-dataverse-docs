@@ -1,6 +1,7 @@
 ---
 title: What data protection levels are safe to deposit with the Faculty Research Data Collection?
 categories: [Faculty Research Data, Deposit]
+order: 20
 ---
 
 Data up to protection level 2 may be deposited with the Faculty Research Data Collection.
