@@ -1,0 +1,14 @@
+<!-- 
+ Fix: Skip to main content link
+Issue: https://github.com/orgs/quarto-dev/discussions/10096
+-->
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var skip = document.createElement("a");
+  skip.href = "#quarto-content";
+  skip.className = "skip-link visually-hidden-focusable";
+  skip.textContent = "Skip to main content";
+  document.body.insertBefore(skip, document.body.firstChild);
+});
+</script>

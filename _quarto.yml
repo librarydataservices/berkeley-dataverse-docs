@@ -68,5 +68,6 @@ format:
     include-in-header:
       - text: |
           <script src="/assets/a11y-fixes.js"></script>
+    include-before-body: assets/skip-link.html
 
 
