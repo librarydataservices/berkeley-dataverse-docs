@@ -181,7 +181,7 @@
     "href": "how-to/deposit-your-data.html#upload-files",
     "title": "Deposit Your Data",
     "section": "Upload Files",
-    "text": "Upload Files\nDrag and drop files into the upload area, or click “Select Files to Add” (maximum 1,000 files per batch). To preserve folder structure, upload a .zip file. For larger deposits, see API upload instructions on GitHub.\nDataverse automatically creates archival .tab versions of Stata, SPSS, R, Excel, CSV, and TSV files. Your originals are preserved.\nClick “Save Dataset.”\n\n\n\n\n\n\nTip\n\n\n\nA DOI is reserved as soon as you save. You can include it in manuscripts or grant applications now — it will resolve publicly once the dataset is published.",
+    "text": "Upload Files\nDrag and drop files into the upload area, or click “Select Files to Add” (maximum 1,000 files per batch). To preserve folder structure, upload a .zip file. For larger deposits, see API upload instructions on GitHub.\nDataverse automatically creates archival .tab versions of Stata, SPSS, R, Excel, CSV, and TSV files. Your originals are preserved.\nClick “Save Dataset.”\nA DOI is reserved as soon as you save. You can include it in manuscripts or grant applications now. It will resolve publicly once the dataset is published.\n\n\n\n\n\n\nImportantCampus Connection Required for Upload\n\n\n\nTo upload files, you must be connected to the campus network or signed in to the bSecure Remote Access VPN.",
     "crumbs": [
       "About",
       "How To",

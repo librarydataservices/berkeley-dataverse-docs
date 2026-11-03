@@ -50,8 +50,11 @@ Dataverse automatically creates archival `.tab` versions of Stata, SPSS, R, Exce
 
 Click "Save Dataset."
 
-:::{.callout-tip}
-A DOI is reserved as soon as you save. You can include it in manuscripts or grant applications now — it will resolve publicly once the dataset is published.
+A DOI is reserved as soon as you save. You can include it in manuscripts or grant applications now. It will resolve publicly once the dataset is published.
+
+:::{.callout-important}
+### Campus Connection Required for Upload
+To upload files, you must be connected to the campus network or signed in to the [bSecure Remote Access VPN](https://software.berkeley.edu/bsecure-remote-access-vpn).
 :::
 
 ## Add Supplementary Metadata
